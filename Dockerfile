@@ -44,7 +44,6 @@ FROM build-${TARGETARCH}
 ARG VERSION_ARG="0.00"
 RUN echo "$VERSION_ARG" > /etc/version
 
-VOLUME /storage
 EXPOSE 3389 8006
 
 ENV VERSION="11"
