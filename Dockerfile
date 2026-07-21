@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1
+FROM ubuntu
 
 ARG VERSION_ARG="latest"
 FROM scratch AS build-amd64
@@ -46,7 +46,7 @@ RUN echo "$VERSION_ARG" > /etc/version
 
 EXPOSE 3389 8006
 
-ENV VERSION="11"
+ENV VERSION="10"
 ENV RAM_SIZE="4G"
 ENV CPU_CORES="2"
 ENV DISK_SIZE="64G"
