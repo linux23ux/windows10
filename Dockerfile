@@ -1,5 +1,5 @@
 # Sử dụng image chứa sẵn trình mô phỏng KVM và Windows của Dockur
-FROM dockur/windows:latest
+FROM dockurr/windows:latest
 
 # Cấu hình phiên bản Windows muốn cài (ở đây là Windows 10)
 ENV VERSION="10"
