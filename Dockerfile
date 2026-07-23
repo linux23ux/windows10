@@ -5,7 +5,7 @@ FROM dockurr/windows:latest
 ENV VERSION="10"
 
 # Cấu hình cấu hình phần cứng ảo (Mặc định Railway gói thấp RAM sẽ rất yếu)
-ENV RAM_SIZE="2G"
+ENV RAM_SIZE="4G"
 ENV CPU_CORES="2"
 
 # Mở port 8006 để truy cập giao diện Windows qua trình duyệt Web
